@@ -5,7 +5,7 @@
     {
       "name": "roast-room",
       "description": "Council of simulated advisors that debates a founder's business decision",
-      "source": { "source": "git", "url": "https://github.com/nateherkai/roast-room.git" },
+      "source": { "source": "url", "url": "https://github.com/nateherkai/roast-room.git", "ref": "main" },
       "strict": false,
       "skills": ["./.claude/skills/roast-room", "./.claude/skills/newroaster"],
       "agents": "./.claude/agents"
