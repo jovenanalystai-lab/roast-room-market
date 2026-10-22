@@ -1,14 +1,36 @@
 {
   "name": "roast-room-market",
-  "owner": { "name": "Joven" },
+  "owner": {
+    "name": "Joven"
+  },
   "plugins": [
     {
       "name": "roast-room",
       "description": "Council of simulated advisors that debates a founder's business decision",
-      "source": { "source": "url", "url": "https://github.com/nateherkai/roast-room.git", "ref": "main" },
+      "source": {
+        "source": "url",
+        "url": "https://github.com/nateherkai/roast-room.git",
+        "ref": "main"
+      },
       "strict": false,
-      "skills": ["./.claude/skills/roast-room", "./.claude/skills/newroaster"],
-      "agents": "./.claude/agents"
+      "skills": [
+        "./.claude/skills/roast-room",
+        "./.claude/skills/newroaster"
+      ],
+      "agents": [
+        "./.claude/agents/council-bezos.md",
+        "./.claude/agents/council-blakely.md",
+        "./.claude/agents/council-buffett.md",
+        "./.claude/agents/council-garyvee.md",
+        "./.claude/agents/council-graham.md",
+        "./.claude/agents/council-hormozi.md",
+        "./.claude/agents/council-leila.md",
+        "./.claude/agents/council-martell.md",
+        "./.claude/agents/council-musk.md",
+        "./.claude/agents/council-naval.md",
+        "./.claude/agents/council-sanchez.md",
+        "./.claude/agents/council-wickman.md"
+      ]
     }
   ]
 }
