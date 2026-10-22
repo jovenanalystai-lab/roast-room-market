@@ -1,0 +1,14 @@
+{
+  "name": "roast-room-market",
+  "owner": { "name": "Joven" },
+  "plugins": [
+    {
+      "name": "roast-room",
+      "description": "Council of simulated advisors that debates a founder's business decision",
+      "source": { "source": "git", "url": "https://github.com/nateherkai/roast-room.git" },
+      "strict": false,
+      "skills": ["./.claude/skills/roast-room", "./.claude/skills/newroaster"],
+      "agents": "./.claude/agents"
+    }
+  ]
+}
